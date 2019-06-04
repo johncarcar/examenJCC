@@ -1,5 +1,4 @@
 package ut4_practico_2;
-
 /**
  *
  * @author jcc
@@ -11,7 +10,7 @@ public class Ut4_Practico_2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        sumar();
+        nuevo();
         int rest1=10;
         int rest2=20;
         int rest3=30;
@@ -27,9 +26,11 @@ public class Ut4_Practico_2 {
         int div3=30;
         int dividir = div1/div2/div3;
         System.out.println("Operación Restar"+restar);
+        
+        
     }
 
-    public static void sumar() {
+    public static void nuevo() {
         int sum1=10;
         int sum2=20;
         int sum3=30;
